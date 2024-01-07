@@ -3,7 +3,7 @@
 
     <q-header class="bg-secondary">
       <q-toolbar align="right">
-        <div class="q-pa-md q-gutter-md col-8">
+        <div class="q-pa-md q-gutter-md col-7">
           <q-btn
             v-for="btn in buttons"
             :key="btn.label"
@@ -14,7 +14,7 @@
             class="btn"
           />
         </div>
-        <div class="col-4">
+        <div class="col-5">
           <q-btn
             icon="local_grocery_store"
             color="primary"
